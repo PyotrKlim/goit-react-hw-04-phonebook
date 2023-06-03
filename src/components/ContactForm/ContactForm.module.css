@@ -1,0 +1,22 @@
+.Phonebook {
+  margin: 10px;
+}
+
+form {
+  display: inline-grid;
+  justify-items: start;
+  border: solid 2px black;
+  padding: 6px;
+}
+
+label {
+  margin: 6px;
+}
+
+input {
+  margin: 6px;
+}
+
+button {
+  margin: 6px;
+}
