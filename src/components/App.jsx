@@ -27,7 +27,7 @@ export default function App() {
       alert(newContact.name + 'is already in contacts');
       return;
     }
-    setContacts([{ ...newContact, id: nanoid() }, ...contacts]);
+    setContacts(prev => [{ ...newContact, id: nanoid() }, ...prev]);
     setFilter('');
   };
 
